@@ -24,13 +24,13 @@ section {
   height: 100%;
   display: flex;
   justify-content: end;
-  font-size: 40px;
 }
 .ham {
   margin: 5px 20px;
   color: black;
   z-index: 1;
   cursor: pointer;
+  font-size: 40px;
 }
 .overlay {
   content: '';
@@ -116,4 +116,33 @@ section {
   left: -10%;
   top: -25%;
   overflow: hidden;
+}
+.background ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30vh;
+  width: 10vw;
+  background-color: black;
+  position: fixed;
+  top: 7%;
+  border-radius: 10px;
+  z-index: 2;
+  right: 1.5%;
+  transition: all 0.3s ease;
+}
+/* #click:checked ~ ul {
+  right: 1.5%;
+} */
+.background ul li {
+  margin-left: 20px;
+}
+.background ul li a {
+  text-decoration: none;
+  color: #F2CB2D;
+}
+.background ul li a:hover {
+  color: #FFFFFF;
+  font-size: 15px;
 }

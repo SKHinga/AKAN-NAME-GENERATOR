@@ -68,3 +68,45 @@ section {
 .overlay button a {
   text-decoration: none;
 }
+.circle-1 {
+  width: 350px;
+  height: 350px;
+  border: solid 2px #900000;
+  border-top-left-radius: 80%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 80%;
+  /* transition: all .3s ease-out; */
+  transform: rotateZ(90deg);
+  position: absolute;
+  right: -10%;
+  bottom: -20%;
+}
+.circle-2 {
+  width: 350px;
+  height: 350px;
+  border: solid 2px #F2CB2D;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 80%;
+  border-bottom-left-radius: 80%;
+  border-bottom-right-radius: 50%;
+  /* transition: all .3s ease-out; */
+  transform: rotateZ(10deg);
+  position: absolute;
+  left: -10%;
+  bottom: -20%;
+}
+.circle-3 {
+  width: 350px;
+  height: 350px;
+  border: solid 2px #286A3F;
+  border-top-left-radius: 80%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 80%;
+  /* transition: all .3s ease-out; */
+  transform: rotateZ(40deg);
+  position: absolute;
+  left: -10%;
+  top: -25%;
+}

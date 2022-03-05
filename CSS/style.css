@@ -7,10 +7,14 @@
 body {
   color: #FFFFFF;
   font-family: 'Poppins', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 section {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 .background {
   background-image: url(../Assets/Aki.jpeg);
@@ -69,8 +73,8 @@ section {
   text-decoration: none;
 }
 .circle-1 {
-  width: 350px;
-  height: 350px;
+  width: 30vw;
+  height: 60vh;
   border: solid 2px #900000;
   border-top-left-radius: 80%;
   border-top-right-radius: 50%;
@@ -81,10 +85,11 @@ section {
   position: absolute;
   right: -10%;
   bottom: -20%;
+  overflow: hidden;
 }
 .circle-2 {
-  width: 350px;
-  height: 350px;
+  width: 30vw;
+  height: 60vh;
   border: solid 2px #F2CB2D;
   border-top-left-radius: 50%;
   border-top-right-radius: 80%;
@@ -95,10 +100,11 @@ section {
   position: absolute;
   left: -10%;
   bottom: -20%;
+  overflow: hidden;
 }
 .circle-3 {
-  width: 350px;
-  height: 350px;
+  width: 30vw;
+  height: 60vh;
   border: solid 2px #286A3F;
   border-top-left-radius: 80%;
   border-top-right-radius: 50%;
@@ -109,4 +115,5 @@ section {
   position: absolute;
   left: -10%;
   top: -25%;
+  overflow: hidden;
 }

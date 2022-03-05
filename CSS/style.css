@@ -43,3 +43,28 @@ section {
   align-items: center;
   opacity: 0;
 }
+.overlay:hover {
+  opacity: 1;
+}
+.overlay h1 {
+  letter-spacing: 2px;
+}
+.overlay p {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.overlay button {
+  padding: 4px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+.overlay button:hover {
+  background-color: black;
+  color: #FFFFFF;
+}
+.overlay button a {
+  text-decoration: none;
+}

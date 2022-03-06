@@ -25,13 +25,6 @@ section {
   display: flex;
   justify-content: end;
 }
-.ham {
-  margin: 5px 20px;
-  color: black;
-  z-index: 1;
-  cursor: pointer;
-  font-size: 40px;
-}
 .overlay {
   content: '';
   position: absolute;
@@ -46,6 +39,14 @@ section {
   justify-content: center;
   align-items: center;
   opacity: 0;
+}
+.ham ion-icon{
+  z-index: 1;
+  margin: 5px 20px;
+  color: black;
+  /* position: fixed; */
+  cursor: pointer;
+  font-size: 40px;
 }
 .overlay:hover {
   opacity: 1;
@@ -130,17 +131,17 @@ section {
   border-radius: 10px;
   z-index: 2;
   right: 1.5%;
-  transition: all 0.3s ease;
-}
-#click:checked ~ ul {
-  right: 1.5%;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
 }
 .contain ul li {
   margin-left: 20px;
+  transition: all 0.2s ease-in-out;
 }
 .contain ul li a {
   text-decoration: none;
   color: #F2CB2D;
+  transition: all 0.2s ease-in-out;
 }
 .contain ul li a:hover {
   color: #FFFFFF;

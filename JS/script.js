@@ -1,3 +1,16 @@
+let toggleNavStatus = false;
+function toggleNav(){
+  let getSidebar = document.querySelector('.contain');
+  let getSidebarUl = document.querySelector('.contain ul');
+  let getSidebarLinks = document.querySelectorAll('.contain a');
+  if (toggleNavStatus === false) {
+    getSidebarUl.style.visibility = 'visible';
+    toggleNavStatus = true;
+  } else if (toggleNavStatus === true) {
+    getSidebarUl.style.visibility = 'hidden';
+    toggleNavStatus = false;
+  }
+}
 var submit = document.getElementById('submit');
 submit.onclick=()=>{
   var showDate =document.getElementById('display');

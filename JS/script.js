@@ -1,11 +1,11 @@
 const showOuput = document.getElementById('display');
-const btn = document.getElementById('now')
-btn.innerHTML = '<button id="ok">OK</button>';
-const ok = document.getElementById("ok");
-ok.addEventListener('click',()=>{
-  showOuput.classList.remove("show-output");
-  window.location.href = "../Pages/generate.html";
-})
+// const btn = document.getElementById('now')
+// btn.innerHTML = '<button id="ok">OK</button>';
+// const ok = document.getElementById("ok");
+// ok.addEventListener('click',()=>{
+//   showOuput.classList.remove("show-output");
+//   window.location.href = "../Pages/generate.html";
+// })
 let toggleNavStatus = false;
 function toggleNav(){
   let getSidebar = document.querySelector('.contain');

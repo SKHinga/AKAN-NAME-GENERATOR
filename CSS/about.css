@@ -30,3 +30,9 @@
   background-color: #E4AD29;
   color: #FFFFFF;
 }
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .overlay h2 {
+    text-align: center;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.overlay p {
+  text-align: start;
+}
+.akan {
+  color: white;
+}
+.akan p {
+  margin: 15px 0;
+}
+.button {
+  padding: 3px 15px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: end;
+}
+.button:hover {
+  background-color: #F2CB2D;
+  color: black;
+}
+.diss {
+  margin-top: 10px;
+  font-weight: 700;
+  color: blanchedalmond;
+}
+img {
+  width: 30vw;
+}

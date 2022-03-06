@@ -19,7 +19,7 @@ The AKAN tribe is famous for their naming process. They name their offsprings ac
 -Alert prompt will ask me to input date.
 -My Akan name will be generated!
 ## Setup/Installation Requirements
-* Hurp on to your browser,
+* Harp on to your browser,
 * type in the webs Url,
 * click the menu bar,
 * or simply click the generate button when you hover,

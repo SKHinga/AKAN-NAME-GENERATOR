@@ -1,3 +1,11 @@
+const showOuput = document.getElementById('display');
+const btn = document.getElementById('now')
+btn.innerHTML = '<button id="ok">OK</button>';
+const ok = document.getElementById("ok");
+ok.addEventListener('click',()=>{
+  showOuput.classList.remove("show-output");
+  window.location.href = "../Pages/generate.html";
+})
 let toggleNavStatus = false;
 function toggleNav(){
   let getSidebar = document.querySelector('.contain');
@@ -28,9 +36,11 @@ submit.onclick=()=>{
     alert ('Please select your birthday')
   } else{
     if (gender==='female'){
+      showOuput.classList.add('show-diss');
       showDate.innerHTML = `<h3>Wow! Born on a <strong></strong>, your <span>Akan</span> name is <em>${femaleAkanNames[theDay]}</em></h3>`;
     }
     else{
+      showOuput.classList.add('show-diss');
       showDate.innerHTML = `<h3>Wow! Born on a <strong></strong>, your <span>Akan</span> name is <em>${maleAkanNames[theDay]}</em></h3>`;
     }
   }

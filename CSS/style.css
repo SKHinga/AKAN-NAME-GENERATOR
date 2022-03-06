@@ -40,11 +40,11 @@ section {
   align-items: center;
   opacity: 0;
 }
-.ham ion-icon{
-  z-index: 1;
+.ham {
   margin: 5px 20px;
+  position: relative;
   color: black;
-  /* position: fixed; */
+  z-index: 1;
   cursor: pointer;
   font-size: 40px;
 }
@@ -129,14 +129,14 @@ section {
   position: fixed;
   top: 7%;
   border-radius: 10px;
-  z-index: 2;
+  z-index: 3;
   right: 1.5%;
   visibility: hidden;
   transition: all 0.2s ease-in-out;
 }
 .contain ul li {
   margin-left: 20px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 .contain ul li a {
   text-decoration: none;

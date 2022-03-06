@@ -29,6 +29,17 @@
   font-weight: 700;
   color: #F2CB2D;
   font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+}
+.diss em {
+  color: #286A3F;
+}
+.diss span {
+  color: #900000;
+}
+.diss strong {
+  color: #d9ff00;
 }
 img {
   width: 30vw;

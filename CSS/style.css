@@ -117,7 +117,7 @@ section {
   top: -25%;
   overflow: hidden;
 }
-.background ul {
+.contain ul {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -132,17 +132,17 @@ section {
   right: 1.5%;
   transition: all 0.3s ease;
 }
-/* #click:checked ~ ul {
+#click:checked ~ ul {
   right: 1.5%;
-} */
-.background ul li {
+}
+.contain ul li {
   margin-left: 20px;
 }
-.background ul li a {
+.contain ul li a {
   text-decoration: none;
   color: #F2CB2D;
 }
-.background ul li a:hover {
+.contain ul li a:hover {
   color: #FFFFFF;
   font-size: 15px;
 }

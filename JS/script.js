@@ -28,7 +28,7 @@ submit.onclick=()=>{
     alert ('Please select your birthday')
   } else{
     if (gender==='female'){
-      showDate.innerHTML = `<h3><h3>Wow! Born on a <strong></strong>, your <span>Akan</span> name is <em>${femaleAkanNames[theDay]}</em></h3>`;
+      showDate.innerHTML = `<h3>Wow! Born on a <strong></strong>, your <span>Akan</span> name is <em>${femaleAkanNames[theDay]}</em></h3>`;
     }
     else{
       showDate.innerHTML = `<h3>Wow! Born on a <strong></strong>, your <span>Akan</span> name is <em>${maleAkanNames[theDay]}</em></h3>`;

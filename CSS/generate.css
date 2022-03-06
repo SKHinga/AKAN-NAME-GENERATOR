@@ -32,6 +32,8 @@
   font-size: 25px;
   line-height: 40px;
   text-align: center;
+  transform: translateX(-50%);
+  transition: all 2s ease-in;
 }
 .diss em {
   color: #286A3F;

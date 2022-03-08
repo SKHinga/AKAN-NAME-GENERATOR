@@ -1,5 +1,5 @@
 const showOuput = document.getElementById('display');
-// const btn = document.getElementById('now')
+// const btn = document.getElementById('now');
 // btn.innerHTML = '<button id="ok">OK</button>';
 // const ok = document.getElementById("ok");
 // ok.addEventListener('click',()=>{
@@ -28,6 +28,7 @@ submit.onclick=()=>{
   var theDay = theDate.getDay();
   var femaleAkanNames =['Akosau', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
   var maleAkanNames =['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+  const btn = document.getElementById('now');
   qn.style.display ='none';
   turn.style.display ='none';
   if (gender===''){
@@ -37,12 +38,17 @@ submit.onclick=()=>{
   } else{
     if (gender==='female'){
       showOuput.classList.add('show-diss');
-      showDate.innerHTML = `<h3>Wow! Born on a <strong></strong>, your <span>Akan</span> name is <em>${femaleAkanNames[theDay]}</em></h3>`;
+      showDate.innerHTML = `<h3>Wow! Born on a <strong></strong>, your <span>Akan</span> name is <em>${femaleAkanNames[theDay]}</em></h3><button id="ok">OK</button>`;
     }
     else{
       showOuput.classList.add('show-diss');
-      showDate.innerHTML = `<h3>Wow! Born on a <strong></strong>, your <span>Akan</span> name is <em>${maleAkanNames[theDay]}</em></h3>`;
+      showDate.innerHTML = `<h3>Wow! Born on a <strong></strong>, your <span>Akan</span> name is <em>${maleAkanNames[theDay]}</em></h3><button id="ok">OK</button>`;
     }
+    const ok = document.getElementById("ok");
+    ok.addEventListener('click',()=>{
+    showOuput.classList.remove("show-output");
+    window.location.href = "../Pages/generate.html";
+  })
   }
   var specific = document.querySelector('strong');
   if (theDay===0){

@@ -30,7 +30,7 @@ No currently know bugs.
 ## Technologies Used
 To create the best experience for users, the app incoporates HTML, CSS and JavaScript.
 ## Support and contact details
-To add on to the inner workings of the web, or simply reach out to me, (email)[mailto:samuelkinuthia700@gmail.com] me.
+To add on to the inner workings of the web, or simply reach out to me, [email](mailto:samuelkinuthia700@gmail.com) me.
 ### License
 *The app is open source and in compliance with MIT License*
 Copyright (c) 2022 **{Samuel Hinga}**

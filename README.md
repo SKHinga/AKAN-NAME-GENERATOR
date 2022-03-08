@@ -1,6 +1,7 @@
 # AKAN NAMES
 ## Design
 You can view the design [here](https://www.figma.com/file/Pd12gEYB0mfG75oUzqjOd9/Akan?node-id=47%3A23).
+
 ![Landing](/Assets/Landing.png)
 ![Page 2](/Assets/Page-2.png)
 ![Page 3](/Assets/Page-3.png)
